@@ -75,7 +75,7 @@
 			<heading-deg>0</heading-deg>
 		</offsets>
 	</model>
-<!--
+
 	<model>
 		<name>Taxi-Light-LeftR</name>
 		<path>Aircraft/F-35B/Models/Effects/lightsR/LandingLight.xml</path>
@@ -87,7 +87,7 @@
 			<heading-deg>0</heading-deg>
 		</offsets>
 	</model>
--->
+
 	<animation>
 		<type>select</type>
 		<object-name>Taxi-Light-Left</object-name>
