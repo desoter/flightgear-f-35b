@@ -47,8 +47,8 @@
 	</model>
 
 	<model>
-		<path>Aircraft/F-35B/Models/lights/landinglight.xml</path>
-		<name>NoseGearLandinglight</name>
+		<path>Aircraft/F-35B/Models/Lights/landinglight.xml</path>
+		<name>LandingLights</name>
 		<condition>
 			<equals>
 				<property>gear/gear[0]/position-norm</property>
@@ -66,7 +66,7 @@
 
 	<model>
 		<name>Taxi-Light-Left</name>
-		<path>Aircraft/F-35B/Models/lights/light-cone.xml</path>
+		<path>Aircraft/F-35B/Models/Lights/light-cone.xml</path>
 		<offsets>
 			<x-m>-4.3 </x-m>
 			<y-m>0</y-m>
@@ -75,7 +75,7 @@
 			<heading-deg>0</heading-deg>
 		</offsets>
 	</model>
-
+<!--
 	<model>
 		<name>Taxi-Light-LeftR</name>
 		<path>Aircraft/F-35B/Models/Effects/lightsR/LandingLight.xml</path>
@@ -87,7 +87,7 @@
 			<heading-deg>0</heading-deg>
 		</offsets>
 	</model>
-
+-->
 	<animation>
 		<type>select</type>
 		<object-name>Taxi-Light-Left</object-name>
