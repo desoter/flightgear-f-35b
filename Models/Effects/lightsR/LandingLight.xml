@@ -85,13 +85,13 @@
   </model>
 
 <!-- If you need to change scale of the light source, use and adapt : -->
-  <!--<animation>
+  <animation>
     <type>scale</type>
     <object-name>light</object-name>
     <x-offset> 1.0 </x-offset>
-    <y-offset> 1.0 </y-offset>
-    <z-offset> 1.0 </z-offset>
-  </animation>-->
+    <y-offset> 0.5 </y-offset>
+    <z-offset> 0.2 </z-offset>
+  </animation>
 
 
 </PropertyList>

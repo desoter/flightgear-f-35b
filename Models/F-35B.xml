@@ -31,7 +31,7 @@
 		<type>select</type>
 		<object-name>Taxi-Light-Left</object-name>
 		<object-name>Taxi-Light-Right</object-name>
-		<object-name>NoseGearLandinglight</object-name>
+		<object-name>LandingLights</object-name>
 		<object-name>sonicboom</object-name>
 		<object-name>redlight</object-name>
 		<object-name>greenlight</object-name>
