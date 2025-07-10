@@ -346,5 +346,57 @@
 			<z>1</z>
 		</axis>
 	</animation>
+
+	<!-- Wheels rotation on the ground -->
+	<animation>
+		<type>spin</type>
+		<object-name>wheel.F</object-name>
+		<property>gear/gear[0]/rollspeed-ms</property>
+		<factor>10</factor>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+		<center>
+			<x-m>-3.74</x-m>
+			<y-m>0</y-m>
+			<z-m>-1.7</z-m>
+		</center>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>wheel.L</object-name>
+		<property>gear/gear[1]/rollspeed-ms</property>
+		<factor>10</factor>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+		<center>
+			<x-m>1.75</x-m>
+			<y-m>-1.5</y-m>
+			<z-m>-1.6</z-m>
+		</center>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>wheel.R</object-name>
+		<property>gear/gear[2]/rollspeed-ms</property>
+		<factor>10</factor>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+		<center>
+			<x-m>1.75</x-m>
+			<y-m>1.5</y-m>
+			<z-m>-1.6</z-m>
+		</center>
+	</animation>
 	
 </PropertyList>
