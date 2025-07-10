@@ -292,7 +292,7 @@
 		<object-name>wheel.F</object-name>
 		<object-name>gear1.F</object-name>	 	
 		<property>gear/gear[0]/caster-angle-deg[0]</property>
-		<factor>-1</factor>
+		<factor>1</factor>
 		<offset-deg>0</offset-deg>
 		<axis>
 		 <x1-m>-3.74</x1-m>
